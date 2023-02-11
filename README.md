@@ -1,1 +1,1 @@
-allin kuna maqta!!!
+Allin kuna maqta!!!
