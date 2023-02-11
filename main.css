@@ -1,0 +1,30 @@
+:root {
+    --width-key: 40px;
+    --height-key: 30px;
+    --separation-key: 5px;
+    --input-height: 50px;
+}
+
+.calculator-box {
+    width: calc(var(--width-key)*4 + var(--separation-key)*3);
+    height: 200px;
+    padding: 10px 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    border: 1px solid red;
+}
+.input-field {
+    height: var(--input-height);
+}
+.row {
+    display: flex;
+    gap: var(--separation-key);  /* espacio entre cajas */
+    margin: 4px 0;
+}
+.key {
+    height: var(--height-key);
+    width: var(--width-key);
+    border-radius: 3px;
+    border: 1px solid black;
+}
